@@ -1,10 +1,7 @@
-[My Portfolio](https://aditya-more-my-portfolio.netlify.app/)
+# About
 
-# html-css-js-portfolio
-- Portfolio Template
-- Minimalistic Design
-- Responsive Design
+Welcome to my personal website!! I'm Nebiyou, a software engineer with 4 years of experience specializing in **Machine Learning** 🤖 and **Software Engineering** 💻. I work with **Python**, **Flask**, **C#**, and **ASP.NET Core**, and I use **PyTorch** for AI-driven systems. I also contribute to open-source projects like the **Gorse recommender system**.
 
-Design preview:
+## Contact
 
-<img src="https://github.com/adityaa-more/html-css-js-portfolio/assets/99107694/1e29a105-89d0-4917-a2b8-83fb03104e01" width="400px">
+Feel free to reach out: nebiyouhailemariam@gmail.com
