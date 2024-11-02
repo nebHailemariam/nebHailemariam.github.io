@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/name-logo.ico" />
+    <title>Nebiyou H.</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+
+  <body>
+    <nav id="desktop-nav">
+      <img
+        src="./assets/name-logo.ico"
+        alt="Experience icon"
+        class="icon"
+        style="width: 12rem; height: 12rem"
+      />
+
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#my-tech-stacks">My Tech Stacks</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <!-- <div class="logo">Nebiyou Daniel Hailemariam</div> -->
+      <img
+        src="./assets/name-logo.png"
+        alt="Experience icon"
+        class="icon"
+        style="width: 12rem; height: 12rem"
+      />
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <ul>
+            <li>
+              <a href="#about" style="font-size: 1.2em" onclick="toggleMenu()"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#my-tech-stacks"
+                style="font-size: 1.2em"
+                onclick="toggleMenu()"
+                >My Tech Stacks</a
+              >
+            </li>
+            <li>
+              <a
+                href="#recent-projects"
+                style="font-size: 1.2em"
+                onclick="toggleMenu()"
+                >Recent Projects</a
+              >
+            </li>
+            <li>
+              <a href="#contact" style="font-size: 1.2em" onclick="toggleMenu()"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div
+        class="section__pic-container"
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 450px;
+          width: 100%;
+          max-width: 700px;
+          margin: auto;
+          overflow: hidden;
+        "
+      >
+        <img
+          src="./assets/profile-cartoon.png"
+          alt="Nebiyou Daniel Hailemariam profile picture"
+          class="main_pic"
+          style="
+            width: auto;
+            height: 100%;
+            max-width: none;
+            max-height: none;
+            object-fit: cover;
+          "
+        />
+      </div>
+
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Nebiyou Daniel Hailemariam,</h1>
+        <p class="section__text__p2">an AI Software Engineer!</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/')">
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/nebhailemariam/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/nebHailemariam'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/laptop.jpg"
+            alt="Laptop image representing software development"
+            class="about-pic"
+            style="width: 250px; height: auto; display: block; margin: 0"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+                style="width: 100px; height: auto"
+              />
+              <h3>Experience</h3>
+              <p>4+ years <br />AI Software Engineer</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/Gorse.jpg"
+                alt="CMU logo"
+                class="icon"
+                style="width: 100px; height: auto"
+              />
+              <h3>Open Source contribution</h3>
+              <p style="font-size: 13px">
+                Improved the .NET library for Gorse Recommender system
+              </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/CMU.png"
+                alt="CMU logo"
+                class="icon"
+                style="width: 100px; height: auto"
+              />
+              <h3>Education</h3>
+              <p>Master's in IT, Applied Machine Learning</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I'm a software engineer with 4 years of experience and a deep
+              passion for <strong>Machine Learning</strong> 🤖 and
+              <strong>Software Engineering</strong> 💻. I specialize in
+              <strong>Python</strong>, <strong>Flask</strong>,
+              <strong>C#</strong>, and <strong>ASP.NET Core</strong> and use
+              these technologies to create robust software solutions. With a
+              solid foundation in <strong>software engineering</strong> and
+              <strong>machine learning</strong>, I leverage
+              <strong>PyTorch</strong> to develop
+              <strong>AI-driven systems</strong>. In my free time, I actively
+              contribute to <strong>open source projects</strong>, such as
+              enhancing the <strong>Gorse recommender system</strong>.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon to navigate to experience section"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+
+    <br />
+    <br />
+    <section id="my-tech-stacks">
+      <h1 class="title">My Tech Stacks</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">AI Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Machine Learning</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Deep Learning</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Pandas/Numpy</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TensorFlow</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PyTorch</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Hugging Face Transformers</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C#/ASP.NET Core</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python/Flask/ Django</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node.js/Express</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Go(Golang)/ Gin</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL/ MySQL/MongoDB</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>AWS (EC2, RDS, S3)</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+    <section id="experience" style="background-color: transparent">
+      <h1 class="title">Recent Experience</h1>
+      <div style="text-align: left">
+        <div class="experience-details-container">
+          <div
+            class="details-container"
+            style="margin-bottom: 20px; text-align: left"
+          >
+            <!-- Added left alignment here -->
+            <h2
+              class="experience-sub-title"
+              style="
+                font-size: 1.8em;
+                font-weight: bold;
+                margin-bottom: 5px;
+                text-align: left;
+              "
+            >
+              Software Engineer
+            </h2>
+            <p
+              class="company"
+              style="
+                font-size: 1.2em;
+                font-weight: bold;
+                margin-bottom: 10px;
+                text-align: left;
+              "
+            >
+              Go EBN | August 2024 - Present
+            </p>
+            <ul
+              class="experience-list"
+              style="
+                font-size: 1.1em;
+                list-style-type: disc;
+                margin-left: 20px;
+                padding-left: 0;
+                text-align: left;
+              "
+            >
+              <!-- Ensure left alignment for the list -->
+              <li>
+                Worked on a retail application using
+                <strong>ASP.NET Core Web API</strong>, <strong>Python</strong>,
+                <strong>PyTorch</strong>, and cloud-based microservices to build
+                scalable, AI-driven solutions.
+              </li>
+              <li>
+                Designed and implemented <strong>RESTful APIs</strong> for
+                inventory management using n-tier architecture.
+              </li>
+              <li>
+                Implemented <strong>OAuth 2.0</strong> client-credential flow
+                using <strong>OpenIddict</strong> for secure machine-to-machine
+                communication and <strong>ASP.NET Core Identity</strong> for
+                user management.
+              </li>
+              <li>
+                Employed <strong>xUnit</strong> to write integration tests for
+                authentication and API microservices using a custom web
+                application factory.
+              </li>
+              <li>
+                Designed a messaging system using <strong>Kafka</strong> and
+                Golang as a message producer.
+              </li>
+              <li>
+                Integrated <strong>Gorse</strong>, a recommender system, and
+                contributed to the open-source recommender systems.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" style="margin-top: -20%">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a
+              href="mailto:nebiyouhailemariam@gmail.com
+"
+              >nebiyouhailemariam@gmail.com
+            </a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/nebhailemariam/">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container" style="margin-top: -10%">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#my-tech-stacks">My Tech Stacks</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p style="margin-top: -3%">
+        Copyright &#169; <span id="current-year"></span> Nebiyou Daniel
+        Hailemariam. All Rights Reserved.
+      </p>
+
+      <script>
+        // Get the current year
+        const currentYear = new Date().getFullYear();
+        // Set the current year in the span
+        document.getElementById("current-year").textContent = currentYear;
+      </script>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
