@@ -106,7 +106,10 @@
         <h1 class="title">Nebiyou Daniel Hailemariam,</h1>
         <p class="section__text__p2">an AI Software Engineer!</p>
         <div class="btn-container">
-          <button class="btn btn-color-2" onclick="window.open('./assets/')">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('assets\\Nebiyou\'s Resume.pdf')"
+          >
             Download CV
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
@@ -352,12 +355,7 @@
           </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
+    
     </section>
 
     <section id="experience" style="background-color: transparent">
@@ -435,9 +433,62 @@
           </div>
         </div>
       </div>
+
+    <!-- New experience entry -->
+    <div class="experience-details-container">
+      <div
+        class="details-container"
+        style="margin-bottom: 20px; text-align: left"
+      >
+        <!-- Job title and company for new experience -->
+        <h2
+          class="experience-sub-title"
+          style="
+            font-size: 1.8em;
+            font-weight: bold;
+            margin-bottom: 5px;
+            text-align: left;
+          "
+        >
+          Graduate Teaching Assistant
+        </h2>
+        <p
+          class="company"
+          style="
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-align: left;
+          "
+        >
+          Carnegie Mellon University | June 2024 - Present
+        </p>
+        <ul
+          class="experience-list"
+          style="
+            font-size: 1.1em;
+            list-style-type: disc;
+            margin-left: 20px;
+            padding-left: 0;
+            text-align: left;
+          "
+        >
+          <li>
+            Held weekly office hours to assist students with deep learning concepts, homework, and coding challenges in PyTorch.
+          </li>
+          <li>
+            Developed and maintained programming assignments focused on implementing Recurrent Neural Networks and Gated recurrent Units and optimization techniques.
+          </li>
+          <li>
+            Provided support for Autolab by setting up and releasing homeworks and helping students troubleshoot and optimize their models.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
     </section>
 
-    <section id="contact" style="margin-top: -20%">
+    <section id="contact" style="margin-top: 0%">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
