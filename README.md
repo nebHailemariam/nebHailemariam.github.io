@@ -4,4 +4,4 @@ Welcome to my personal website!! I'm Nebiyou, a software engineer with 4 years o
 
 ## Contact
 
-Feel free to reach out: nebiyouhailemariam@gmail.com
+Feel free to reach out: nebhailema@gmail.com
