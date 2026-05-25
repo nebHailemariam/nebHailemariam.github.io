@@ -1,0 +1,45 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.logo {
+  margin: 0 0 1.5rem;
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  line-height: 2rem;
+
+  a {
+    color: var(--color-black);
+    text-decoration: none;
+  }
+}
+
+.navigation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+  font-size: var(--text-lg);
+  line-height: 1.75rem;
+}
+
+.navItem {
+  color: var(--color-nav);
+  text-decoration: none;
+  transition: color 0.15s ease;
+
+  &:not(:first-child) {
+    margin-left: 1.5rem;
+  }
+
+  &:hover {
+    color: var(--color-black);
+  }
+}
+
+.navItemActive {
+  color: var(--color-black);
+}
