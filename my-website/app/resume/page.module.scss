@@ -1,0 +1,104 @@
+.section {
+  padding: 3rem 0;
+
+  & + & {
+    padding-top: 0;
+  }
+}
+
+.heading {
+  margin: 0 0 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  color: var(--color-black);
+}
+
+.entry {
+  margin-bottom: 1rem;
+}
+
+.entryHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.entryTitle {
+  margin: 0;
+  font-size: var(--text-lg);
+  line-height: 1.75rem;
+  color: var(--color-black);
+}
+
+.entryDate {
+  margin-bottom: 0.125rem;
+  color: rgb(115 115 115);
+}
+
+.byline {
+  font-family: Newsreader, ui-serif, Georgia, Cambria, "Times New Roman", Times,
+    serif;
+  font-style: italic;
+}
+
+.spacer {
+  display: block;
+  height: 1rem;
+}
+
+.job {
+  margin-bottom: 2rem;
+}
+
+.jobTitle {
+  margin: 0 0 0.25rem;
+  font-size: var(--text-lg);
+  line-height: 1.25;
+  color: var(--color-black);
+}
+
+.jobDates {
+  margin: 0 0 0.5rem;
+  font-weight: 300;
+}
+
+.jobList {
+  margin: 0;
+  padding-left: 1.75rem;
+  list-style-type: disc;
+
+  li {
+    margin: 0;
+
+    &::marker {
+      color: rgb(163 163 163);
+    }
+  }
+
+  li + li {
+    margin-top: 0.25rem;
+  }
+}
+
+.leetcodeIntro {
+  margin-bottom: 0.5rem;
+}
+
+.italicText {
+  font-family: Newsreader, ui-serif, Georgia, Cambria, "Times New Roman", Times,
+    serif;
+  font-size: 110%;
+  line-height: 100%;
+  font-style: italic;
+}
+
+.leetcodeImage {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.leetcodeLink {
+  display: inline-block;
+}

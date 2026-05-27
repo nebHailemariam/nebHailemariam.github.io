@@ -1,0 +1,100 @@
+.hero {
+  margin: 0 0 4rem;
+  color: var(--color-black);
+  font-size: 1.25rem;
+  line-height: 1.25;
+  font-weight: 300;
+}
+
+.grayText {
+  color: rgb(163 163 163);
+}
+
+.italicText {
+  font-family: Newsreader, ui-serif, Georgia, Cambria, "Times New Roman", Times,
+    serif;
+  font-size: 110%;
+  line-height: 100%;
+  font-style: italic;
+}
+
+.content {
+  font-size: var(--text-lg);
+
+  > * + * {
+    margin-top: 3.5rem;
+  }
+}
+
+.copyBlock {
+  > * + * {
+    margin-top: 1.25rem;
+  }
+}
+
+.copyBlock > .leetcodeText {
+  margin-top: 1.5rem;
+}
+
+.copyBlock > .leetcodeImage {
+  margin-top: 0.5rem;
+
+  a {
+    display: inline-block;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.techSection {
+  line-height: 1.375;
+
+  > * + * {
+    margin-top: 1rem;
+  }
+}
+
+.techHeading {
+  margin: 0;
+  padding-bottom: 0.5rem;
+}
+
+.projectPair {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  display: grid;
+  row-gap: 0.25rem;
+  padding: 0.5rem 0.75rem;
+  transition: background-color 0.15s ease;
+
+  &:hover {
+    background-color: rgb(245 245 245);
+  }
+
+  p {
+    margin: 0;
+  }
+
+  @media (min-width: 640px) {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+.categoryLabel {
+  color: var(--color-black);
+  font-weight: 500;
+}
+
+.profileBlock {
+  margin: 0;
+}
+
+.profileImage {
+  display: block;
+  width: 100%;
+  height: auto;
+}

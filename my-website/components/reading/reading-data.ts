@@ -1,0 +1,151 @@
+export type ReadingItem = {
+  href: string;
+  title: string;
+  description: string;
+  meta?: string;
+};
+
+export type ReadingSection = {
+  title: string;
+  items: ReadingItem[];
+};
+
+export const readingSections: ReadingSection[] = [
+  {
+    title: "Articles",
+    items: [
+      {
+        href: "https://engineering.fb.com/2023/08/09/ml-applications/scaling-instagram-explore-recommendations-system/",
+        title: "Scaling the Instagram Explore recommendations system",
+        meta: "August 9, 2023",
+        description:
+          "How Meta scales Explore with multi-stage ranking, Two Tower neural networks, and retrieval.",
+      },
+      {
+        href: "https://huggingface.co/blog/rlhf",
+        title: "Illustrating Reinforcement Learning from Human Feedback (RLHF)",
+        description:
+          "Comprehensive guide to RLHF: using reinforcement learning to optimize language models with human feedback.",
+      },
+      {
+        href: "https://langchain-ai.github.io/langgraph/tutorials/plan-and-execute/plan-and-execute/#create-the-graph",
+        title: "Plan-and-Execute (LangGraph)",
+        description:
+          "Tutorial on building a plan-and-execute style agent in LangGraph.",
+      },
+      {
+        href: "https://spinningup.openai.com/en/latest/spinningup/rl_intro3.html",
+        title: "Part 3: Intro to Policy Optimization (Spinning Up)",
+        description:
+          "Policy gradient derivation, reward-to-go, baselines, and advantage-based policy gradients.",
+      },
+      {
+        href: "https://academy.langchain.com/certificates/pfsyhfhaui",
+        title: "Project: Deep Agents",
+        description: "Certificate in building deep agents with LangChain.",
+      },
+      {
+        href: "https://academy.langchain.com/certificates/lmvut0v3jc",
+        title: "Foundation: Introduction to LangChain - Python",
+        description:
+          "Certificate in LangChain foundations for building applications with LLMs using Python.",
+      },
+      {
+        href: "https://academy.langchain.com/certificates/arzejdkbkn",
+        title: "Foundation: Introduction to LangGraph",
+        description:
+          "Certificate in LangGraph foundations for building stateful, multi-actor applications with LLMs.",
+      },
+      {
+        href: "https://huggingface.co/blog/train-reranker",
+        title:
+          "Training and Finetuning Reranker Models with Sentence Transformers v4",
+        meta: "March 26, 2025",
+        description:
+          "Guide to training and finetuning reranker models with Sentence Transformers v4.",
+      },
+      {
+        href: "https://galileo.ai/blog/mastering-rag-how-to-select-a-reranking-model",
+        title: "Mastering RAG: How to Select a Reranking Model",
+        meta: "Galileo AI",
+        description: "Guide to selecting reranking models for RAG systems.",
+      },
+      {
+        href: "https://www.alpha-quantum.com/blog/recommender-systems/introduction-to-recommender-systems-content-based-collaborative-filtering-and-hybrid-recommendation-engines/",
+        title:
+          "Introduction to Recommender Systems: Content-Based, Collaborative Filtering, and Hybrid Recommendation Engines",
+        meta: "Alpha Quantum",
+        description:
+          "Introduction to recommender systems: content-based, collaborative, and hybrid approaches.",
+      },
+      {
+        href: "https://sidsite.com/posts/autodiff/",
+        title: "Reverse-mode automatic differentiation from scratch, in Python",
+        meta: "June 11, 2020",
+        description:
+          "Building a minimal autodiff framework from scratch with Python implementation.",
+      },
+      {
+        href: "http://towardsdatascience.com/a-practical-guide-to-contrastive-learning-26e912c0362f/",
+        title: "A Practical Guide to Contrastive Learning",
+        meta: "July 30, 2024",
+        description:
+          "Building SimSiam models with FashionMNIST for self-supervised learning.",
+      },
+    ],
+  },
+  {
+    title: "Books",
+    items: [
+      {
+        href: "https://www.manning.com/books/build-a-deepseek-model-from-scratch",
+        title: "Build a DeepSeek Model (From Scratch)",
+        meta: "R. A. Dandekar et al., 2025",
+        description:
+          "Learn how to build DeepSeek's core innovations including Multi-Head Latent Attention, Mixture-of-Experts, and Multi-Token Prediction from scratch.",
+      },
+      {
+        href: "https://www.oreilly.com/library/view/building-recommendation-systems/9781492097983/",
+        title: "Building Recommendation Systems in Python and JAX",
+        meta: "B. Bischof and H. Yee, 2023",
+        description:
+          "O'Reilly Media publication on building recommendation systems using Python and JAX.",
+      },
+      {
+        href: "https://web.stanford.edu/~jurafsky/slp3/",
+        title: "Speech and Language Processing",
+        meta: "D. Jurafsky and J. H. Martin, 2024",
+        description:
+          "Comprehensive introduction to NLP, computational linguistics, and speech recognition.",
+      },
+    ],
+  },
+  {
+    title: "Research Papers",
+    items: [
+      {
+        href: "https://arxiv.org/abs/2105.14491",
+        title: "How Attentive are Graph Attention Networks?",
+        meta: "S. Brody et al., 2021",
+        description:
+          "Analysis showing that GAT computes only static attention, and introduction of GATv2 with dynamic attention that is strictly more expressive.",
+      },
+      {
+        href: "https://arxiv.org/abs/2002.02126",
+        title:
+          "LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation",
+        meta: "X. He et al., 2020",
+        description:
+          "A simplified Graph Convolutional Network for collaborative filtering that removes unnecessary components and achieves significant performance improvements.",
+      },
+      {
+        href: "https://arxiv.org/abs/1806.01973",
+        title:
+          "Graph Convolutional Neural Networks for Web-Scale Recommender Systems",
+        meta: "R. Ying et al., 2018",
+        description:
+          "PinSage: A large-scale Graph Convolutional Network deployed at Pinterest for web-scale recommendation with billions of items and users.",
+      },
+    ],
+  },
+];
