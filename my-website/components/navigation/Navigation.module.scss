@@ -43,3 +43,23 @@
 .navItemActive {
   color: var(--color-black);
 }
+
+.pageTitle {
+  font-weight: 300;
+}
+
+.pageTitleDash {
+  color: rgb(163 163 163);
+}
+
+@media (max-width: 580px) {
+  .pageTitle {
+    display: block;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .pageTitleDash {
+    display: none;
+  }
+}
