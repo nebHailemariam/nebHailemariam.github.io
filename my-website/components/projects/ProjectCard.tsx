@@ -1,5 +1,4 @@
 import ProjectPreview from "./ProjectPreview";
-import ProjectPreviewWithFallback from "./ProjectPreviewWithFallback";
 import type {
   Project,
   ProjectLink,
@@ -50,17 +49,6 @@ function ProjectPreviewPanel({ preview }: { preview: ProjectPreviewType }) {
           </div>
         </div>
       </a>
-    );
-  }
-
-  if (preview.fallbackSrc) {
-    return (
-      <ProjectPreviewWithFallback
-        href={preview.href}
-        src={preview.src}
-        alt={preview.alt}
-        fallbackSrc={preview.fallbackSrc}
-      />
     );
   }
 

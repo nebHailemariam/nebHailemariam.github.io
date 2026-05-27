@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./ProjectPreview.module.scss";
 
 type ProjectPreviewProps = {
@@ -7,7 +6,11 @@ type ProjectPreviewProps = {
   alt: string;
 };
 
-export default function ProjectPreview({ href, src, alt }: ProjectPreviewProps) {
+export default function ProjectPreview({
+  href,
+  src,
+  alt,
+}: ProjectPreviewProps) {
   return (
     <a
       href={href}
@@ -15,12 +18,11 @@ export default function ProjectPreview({ href, src, alt }: ProjectPreviewProps) 
       target="_blank"
       className={styles.previewLink}
     >
-      <Image
+      <img
         src={src}
         alt={alt}
-        width={1200}
-        height={630}
-        sizes="(min-width: 768px) 280px, 100vw"
+        loading="lazy"
+        decoding="async"
         className={styles.previewImage}
       />
     </a>

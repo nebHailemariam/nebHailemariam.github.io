@@ -9,7 +9,6 @@ export type ProjectPreview =
       href: string;
       src: string;
       alt: string;
-      fallbackSrc?: string;
     }
   | { type: "paper"; href: string; label: string };
 
@@ -125,10 +124,8 @@ export const projects: Project[] = [
     preview: {
       type: "image",
       href: "https://arxiv.org/abs/2502.02047",
-      src: "https://arxiv.org/html/2502.02047v1/extracted/6180843/amasquad_architecture.png",
+      src: "https://static.arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
       alt: "AmaSQuAD paper preview",
-      fallbackSrc:
-        "https://static.arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     },
   },
   {
