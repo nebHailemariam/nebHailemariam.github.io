@@ -1,0 +1,58 @@
+:root {
+  --text-color: rgb(64 64 64);
+  --text-lg: 1.125rem;
+  --text-2xl: 1.5rem;
+  --color-black: #000;
+  --color-nav: rgb(115 115 115);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.bodyContainer {
+  margin: 0 auto;
+  max-width: 768px;
+  padding: 3rem 1rem;
+  color: var(--text-color);
+  line-height: 1.5;
+  font-family: var(--font-geist-sans), sans-serif;
+  background-color: white;
+}
+
+@media (min-width: 640px) {
+  .bodyContainer {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .bodyContainer {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
+
+.link {
+  color: var(--text-color);
+  text-decoration: underline;
+  text-decoration-color: #a3a3a3;
+  text-underline-offset: 3px;
+  transition:
+    color 0.15s ease,
+    text-decoration-color 0.15s ease;
+
+  &:hover {
+    color: var(--color-black);
+    text-decoration-color: var(--color-black);
+  }
+}

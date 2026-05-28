@@ -1,0 +1,27 @@
+.intro {
+  padding: 3rem 0;
+}
+
+.heading {
+  margin: 0 0 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  color: var(--color-black);
+}
+
+.introText {
+  font-size: var(--text-lg);
+
+  > * + * {
+    margin-top: 1rem;
+  }
+}
+
+.emphasis {
+  font-family:
+    Newsreader, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 110%;
+  line-height: 100%;
+  font-style: italic;
+}

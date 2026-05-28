@@ -1,0 +1,37 @@
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.scss";
+import Navigation from "@/components/navigation/Navigation";
+import Footer from "@/components/footer/Footer";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+export const metadata: Metadata = {
+  title: "Nebiyou Hailemariam",
+  description:
+    "Software engineer, machine learning engineer, and researcher. Building recommendation systems and conversational AI.",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className="bodyContainer">
+        <Navigation />
+        {children}
+        <Footer />
+      </body>
+    </html>
+  );
+}
