@@ -10,6 +10,17 @@ export const metadata: Metadata = {
 export default function Resume() {
   return (
     <main>
+      <p className={styles.pdfRow}>
+        <a
+          className={styles.pdfLink}
+          href="/resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          PDF Download
+        </a>
+      </p>
+
       <section className={styles.section}>
         <h2 className={styles.heading}>Education</h2>
 
