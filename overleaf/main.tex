@@ -1,0 +1,262 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{#2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\newcommand{\resumeLink}[2]{\underline{\textcolor{blue}{\href{#1}{#2}}}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Nebiyou Hailemariam} \\ \vspace{1pt}
+    \small 412-251-7954 $|$ \resumeLink{mailto:nebhailema@gmail.com}{nebhailema@gmail.com} $|$ 
+    \resumeLink{https://linkedin.com/in/nebhailemariam/}{linkedin.com/in/nebhailemariam}
+    $|$ 
+    \resumeLink{https://nebhailemariam.github.io/}{nebhailemariam.github.io/}
+\end{center}
+  
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Carnegie Mellon University | CGPA 3.93}{Aug. 2022 -- May 2024}
+      {Masters in Information Technology, Applied Machine
+Learning Specialization}{}
+    \resumeSubheading
+      {Addis Ababa University | CGPA 3.8}{Sep. 2016 -- May. 2020}
+      {Bachelor of Science, Computer Science}{}
+    \resumeSubheading
+      {\resumeLink{https://www.toptal.com/}{Toptal | Top 3\% of Freelance Engineers}}{}
+      {Among the top 3\% of engineers worldwide after Toptal's rigorous screening}{}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Software Engineer II, AI}{\small Mar. 2025 - Present;}
+      {Motive}{Remote}
+      \resumeItemListStart
+        \resumeItem{Building and maintaining a \textbf{multi-tenant car dealership platform} used by 400+ dealerships across the U.S. and Canada, serving millions of users, leveraging \textbf{Python (LangGraph, FastAPI, FastMCP)}, \textbf{Ruby on Rails}, and \textbf{Next.js}.}
+        \resumeItem{Developed an \textbf{agentic conversational system} using \textbf{LangChain}, \textbf{LangGraph}, \textbf{LangSmith}, \textbf{FastAPI}, and \textbf{Pydantic}, capable of creating and updating webpages, performing content analytics, and generating SEO-optimized blog posts, enabling dealership admins to scale content automation.}
+        \resumeItem{Built a \textbf{Vehicle Trade-in Evaluator} by training a deep feedforward network on 2 million vehicle inventory records in \textbf{PyTorch}, encoding vehicle attributes with \textbf{Sentence Transformers} (\textbf{all-MiniLM-L6-v2} embeddings), achieving \textbf{9.02\% MAPE} on trade-in value prediction.}
+        \resumeItem{Fine-tuned \textbf{lightweight reranker models} using \textbf{PyTorch}, \textbf{Sentence Transformers}, \textbf{Hugging face}, and \textbf{Vertex Workbench} to train a \textbf{content-based filtering recommendation system} to improve search result relevance and boost conversion rates.}
+        \resumeItem{Designed and deployed \textbf{MCP} servers for dealerships to utilize our platform tools and integrate them with \textbf{Claude}, \textbf{ChatGPT}, and \textbf{Cursor} AI assistants.}
+        \resumeItem{Set up \textbf{training and deployment pipelines} on \textbf{GCP Vertex AI} (Cloud Storage, Artifact Registry, Vertex Training, Vertex Model, Vertex Endpoint) and used \textbf{Weights \& Biases} for experiment tracking and monitoring.}
+        \resumeItem{Utilized the \textbf{pytest} framework to test AI microservice functionality, structuring tests with the \textbf{Arrange–Act–Assert} pattern for clarity and maintainability.}
+
+        
+      \resumeItemListEnd
+    \resumeSubheading
+      {Software Engineer I, AI}{\small Aug. 2024 - March 2025;}
+      {eezly}{Remote}
+      \resumeItemListStart
+      \title{Machine Learning:}
+            
+            \resumeItem{Worked on \textbf{eezly}, a grocery price comparison application used by over 30,000+ users, leveraging \textbf{ASP.NET Core Web API}, \textbf{Python (FastAPI)}, \textbf{PyTorch}, and cloud-based microservices to build scalable, AI-driven app.}
+            \resumeItem{Built a \textbf{Recipe Recommendation System} using \textbf{LangChain}, \textbf{OpenAI}, and the \textbf{Recipe1M+} dataset, creating a \textbf{Retrieval-Augmented Generation (RAG)} system to suggest recipes based on the products users purchase. Incorporated the \textbf{Weaviate} vector database to enhance search and recommendation.}
+            \resumeItem{Employed \textbf{PyTorch} and \textbf{Hugging Face} to train hierarchical machine-learning models for classifying retail products from various stores (e.g., Walmart) into \textbf{aisles, categories, and subcategories}.}
+            \resumeItem{Integrated \textbf{Gorse}, a recommender system, and contributed to open-source recommender systems.}
+            \resumeItem{Designed and implemented \textbf{RESTful APIs} for inventory management using n-tier architecture and developed a \textbf{single-page application} with \textbf{React.js}.}
+            \resumeItem{Implemented \textbf{OAuth 2.0 client-credential flow} using \textbf{OpenIddict} for secure machine-to-machine communication, \textbf{Single Sign-On (Firebase, Cognito)}, and \textbf{ASP.NET Core Identity} for user management.}
+            \resumeItem{Designed a messaging system using \textbf{Kafka} with \textbf{Golang} as the message producer.}
+            \resumeItem{Employed \textbf{xUnit} and \textbf{pytest} to write unit and integration tests for microservices using a custom web application factory.}
+        
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Research Assistant in Machine Learning}{\small May 2021 -- Jan 2022}
+      {Empathic Computing Lab}{Auckland, New Zealand}
+      \resumeItemListStart
+
+            \resumeItem{\textbf{Empathic Computing Laboratory (ECL)} is an academic research laboratory directed by \textbf{Prof. Mark Billinghurst} at the \textbf{University of South Australia} in Adelaide, Australia, and the \textbf{University of Auckland} in Auckland, New Zealand.}
+            \resumeItem{Collaborated with \textbf{Ph.D. students} to refine methods for detecting \textbf{emotions from physiological signals}.}
+            \resumeItem{Conducted extensive \textbf{literature reviews} and analyzed the performance of various \textbf{machine learning} and \textbf{deep learning models}, applying rigorous Hyperparameter tuning. Authored a \textbf{14-page paper (IUI - ACM)}.}
+
+
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects --- \normalfont\small Full project list at \resumeLink{https://nebhailemariam.github.io/projects}{nebhailemariam.github.io/projects}}
+\resumeSubHeadingListStart
+    \resumeProjectHeading
+    {\textbf{NebTorch — a minimal Autograd engine built from scratch using NumPy}}{}
+    \resumeItemListStart
+        \resumeItem{NebTorch is a minimal \textbf{Autograd engine} built from scratch using \textbf{NumPy}, inspired by PyTorch’s automatic differentiation system.}
+        \resumeItem{After completing and serving as a TA for \textbf{11-785: Introduction to Deep Learning} at CMU taught by Prof. Bhiksha Raj, I was inspired to build my own Autograd engine from scratch.}
+        \resumeItem{Building NebTorch has been very rewarding—I’ve solidified my understanding of \textbf{Deep Learning} and \textbf{Automatic Differentiation}, and gained appreciation for frameworks such as \textbf{PyTorch} and \textbf{TensorFlow}.}
+    \resumeItemListEnd
+
+    \resumeProjectHeading
+    {\textbf{DeepSeek-Mini — DeepSeek Model Components Implementation}}{}
+    \resumeItemListStart
+        \resumeItem{Implemented DeepSeek's major components in \textbf{PyTorch} for learning and experimentation: \textbf{Mixture of Experts (MOE)} with shared expert networks, \textbf{Multi-head Latent Attention (MLA)} for optimized inference with KV-caching, and \textbf{Rotary Positional Encoding (RoPE)}.}
+        \resumeItem{Building these components from scratch solidified my understanding of MLA KV-caching and MOE architecture for reducing inference latency in transformer models.}
+    \resumeItemListEnd
+
+    \resumeProjectHeading
+    {\textbf{Gorse Recommender System --- \resumeLink{https://github.com/gorse-io/gorse}{github.com/gorse-io/gorse}}}{}
+    \resumeItemListStart
+        \resumeItem{Contributed to \textbf{Gorse}, an open-source machine learning recommendation engine written in \textbf{Go}, enhancing the \textbf{.NET} library to make the Gorse recommender system more accessible to .NET developers.}
+    \resumeItemListEnd
+
+
+\resumeSubHeadingListEnd
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+        {\textbf{XLM-R Based Extractive Amharic Question Answering with AmaSQuAD} \emph{}}{}
+        \resumeItemListStart
+            \resumeItem{Completed my thesis project at Carnegie Mellon University in multilingual question-answering research (NLP).}
+            \resumeItem{Developed a novel framework for translating the SQuAD 2.0 dataset into Amharic, resulting in the creation of an open-source dataset called AmaSQuAD.}
+            \resumeItem{Implemented a translation-based data generation framework valuable for extractive Question Answering (QA) systems, contributing to the advancement of natural language processing (NLP) for low-resource languages.}
+            \resumeItem{Leveraged XLM-R, a pre-trained language model, and fine-tuned it specifically for Amharic QA tasks, achieving 7\% F1 improvements in baseline performance.}
+            \resumeItem{The dataset is publicly available on \resumeLink{https://huggingface.co/datasets/nebhailema/AmaSquad}{Hugging Face}.}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Machine Learning Based Rain Gauge Using Acoustic Data} \emph{}}{}
+          \resumeItemListStart
+            \resumeItem{Addressed the challenges of conventional weather stations such as high setup costs, instrument fragility, and measurement errors by exploring alternative sound sources for making rainfall predictions.}
+            \resumeItem{Used a Convolutional Neural Network (CNN) regression model using PyTorch and TensorFlow to estimate rainfall intensities from MFCCs extracted from acoustic recordings. Employed CNN model and achieved a Mean Absolute Percentage Error (MAPE) of 35.20\% and a Mean Squared Error (MSE) of 0.66, outperforming a baseline Support Vector Regression (SVR) model with 152.55\% MAPE and 1.73 MSE.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C\#, Go, JavaScript, Ruby} \\
+     \textbf{Frameworks}{: PyTorch, TensorFlow, Scikit-learn, Hugging Face, Pandas, NumPy, LangGraph, LangChain, FastMCP, FastAPI, Flask, Django, ASP.NET Core Web API, Entity Framework, OpenIddict, Gin, Express.js, Node.js} \\
+     \textbf{Dev Tools}{: Git, Postman, Grafana, Prometheus, Grafana-Loki, Jaeger} \\
+     \textbf{Web \& Frontend Technologies}{: TypeScript, React, Next.js, CSS, Bootstrap, Redux} \\
+     \textbf{Cloud Services \& Platforms}{: AWS (EC2, EKS, RDS, SES, SQS, MQTT), Google Cloud (Compute Engine, Cloud Storage, Colab), Azure, Firebase} \\
+     \textbf{Security}{: OAuth 2.0, JWT, ASP.NET Core Identity, Passport.js} \\
+    \textbf{Databases \& Data Storage}{: Relational (MySQL, PostgreSQL), NoSQL (MongoDB, DynamoDB, Cosmos DB, Redis), Vector (Weaviate, Pinecone), ORM (SQLAlchemy)} \\
+
+     \textbf{Testing \& Quality Assurance}{: Unit test, Integration test, xUnit, WebApplicationFactory, Bogus, pytest, Mocha, Jest} \\
+     \textbf{DevOps \& CI/CD}{: Docker, Kubernetes, Jenkins, Containerization} \\
+    \textbf{Machine Learning \& Deep Learning Skills}{: Linear Regression, Support Vector Machines, Bagging and Boosting, Neural Networks, CNNs, RNNs, LSTMs, NLP, Graph Neural Networks (GNNs), clustering, Graph Attention Networks (GATs), Transfer Learning, XGBoost, Hugging Face Transformers, Weights \& Biases, Computer Vision}\\
+     \textbf{Data Science}{: Data Visualization (matplotlib), Data Analysis, NLTK} \\
+     \textbf{Architectures}{: Event-Driven, Microservices, Serverless, Monolithic Architecture, Test-Driven Development (TDD), Design patterns, Agile, REST API} \\
+    }}
+\end{itemize}
+
+
+
+%-------------------------------------------
+\end{document}
