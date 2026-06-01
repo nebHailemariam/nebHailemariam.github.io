@@ -158,6 +158,7 @@ INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/local/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
