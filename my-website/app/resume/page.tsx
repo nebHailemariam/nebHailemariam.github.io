@@ -156,25 +156,37 @@ export default function Resume() {
               Motive
             </a>
           </h3>
-          <p className={styles.jobDates}>Aug 2024 – Present</p>
+          <p className={styles.jobDates}>Mar 2025 – Present</p>
           <ul className={styles.jobList}>
             <li>
               Building and maintaining a multi-tenant car dealership platform
-              used by 300+ dealerships across the U.S. and Canada, serving
-              millions of users, leveraging Python (FastAPI), Ruby on Rails, and
-              React.
+              used by 400+ dealerships across the U.S. and Canada, serving
+              millions of users, leveraging Python (LangGraph, FastAPI,
+              FastMCP), Ruby on Rails, and Next.js.
             </li>
             <li>
               Developed an agentic conversational system using LangChain,
-              LangSmith, FastAPI, and Pydantic, capable of creating and updating
-              webpages, performing content analytics, and generating
-              SEO-optimized blog posts, enabling dealership admins to scale
-              content automation.
+              LangGraph, LangSmith, FastAPI, and Pydantic, capable of creating
+              and updating webpages, performing content analytics, and
+              generating SEO-optimized blog posts, enabling dealership admins to
+              scale content automation.
+            </li>
+            <li>
+              Built a Vehicle Trade-in Evaluator by training a deep feedforward
+              neural network on 2 million vehicle inventory records in PyTorch,
+              encoding vehicle attributes with Sentence Transformers
+              (all-MiniLM-L6-v2 embeddings), achieving 9.02% MAPE on trade-in
+              value prediction.
             </li>
             <li>
               Fine-tuned lightweight reranker models using PyTorch, Sentence
               Transformers, Hugging Face, and Vertex Workbench to improve search
               result relevance and boost conversion rates.
+            </li>
+            <li>
+              Designed and deployed MCP servers for dealerships to utilize our
+              platform tools and integrate them with Claude, ChatGPT, and Cursor
+              AI assistants.
             </li>
             <li>
               Set up training and deployment pipelines on GCP Vertex AI (Cloud
@@ -231,6 +243,65 @@ export default function Resume() {
               Implemented OAuth 2.0 client-credential flow using OpenIddict for
               secure machine-to-machine communication, Single Sign-On (Firebase,
               Cognito), and ASP.NET Core Identity for user management.
+            </li>
+          </ul>
+        </div>
+
+        <div className={styles.job}>
+          <h3 className={styles.jobTitle}>
+            Teaching Assistant at{" "}
+            <a className="link" href="https://www.cmu.edu/">
+              Carnegie Mellon University
+            </a>
+          </h3>
+          <p className={styles.jobDates}>Jun 2024 – Dec 2024</p>
+          <ul className={styles.jobList}>
+            <li>
+              Held weekly office hours to assist students taking 11-785
+              Introduction to Deep Learning, a PhD-level course, with deep
+              learning concepts, homework, and coding challenges in PyTorch.
+            </li>
+            <li>
+              Reviewed and improved homework assignments that help students
+              build RNNs and GRUs from scratch using a custom reverse-mode
+              automatic differentiation framework to register computations and
+              backpropagate.
+            </li>
+            <li>
+              Worked with other TAs to run ablations using Weights & Biases
+              (wandb) to track and analyze the performances of models students
+              should try out.
+            </li>
+            <li>
+              Configured AutoLab, a testing platform, and assisted in releasing
+              homework assignments to evaluate student submissions.
+            </li>
+          </ul>
+        </div>
+
+        <div className={styles.job}>
+          <h3 className={styles.jobTitle}>
+            Research Assistant in Machine Learning at Empathic Computing Lab
+          </h3>
+          <p className={styles.jobDates}>
+            May 2021 – Jan 2022 · Auckland, New Zealand
+          </p>
+          <ul className={styles.jobList}>
+            <li>
+              Empathic Computing Laboratory (ECL) is an academic research
+              laboratory directed by Prof. Mark Billinghurst at the University
+              of South Australia in Adelaide, Australia, and the University of
+              Auckland in Auckland, New Zealand.
+            </li>
+            <li>
+              Collaborated with Ph.D. students to refine methods for detecting
+              emotions from physiological signals.
+            </li>
+            <li>
+              Conducted extensive literature reviews and analyzed the
+              performance of various machine learning and deep learning models,
+              applying rigorous hyperparameter tuning. Authored a 14-page paper
+              (IUI - ACM).
             </li>
           </ul>
         </div>
