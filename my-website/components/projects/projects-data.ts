@@ -93,6 +93,36 @@ export const projects: Project[] = [
     },
   },
   {
+    id: "huggingface-deep-rl",
+    title: "Hugging Face Deep Reinforcement Learning Course",
+    tags: [
+      "Reinforcement Learning",
+      "Q-Learning",
+      "PPO",
+      "DQN",
+      "Gymnasium",
+      "Hugging Face",
+    ],
+    description:
+      "Completed Hugging Face's Deep Reinforcement Learning course, learning important RL approaches: Policy-Based, value-based, and actor-critic based approaches. Worked on 7 projects, implementing the Q-learning algorithm from scratch, training a Lunar Lander agent using Proximal Policy Optimization (actor-critic reinforcement learning), training a Deep Q-Learning (DQN) agent that uses a CNNPolicy (CNN feature extractor) to learn to assign values to states and play Space Invaders, and many more.",
+    links: [
+      {
+        label: "GitHub Repository",
+        href: "https://github.com/nebHailemariam/huggingface-deep-reinforcement-learning-journey",
+      },
+      {
+        label: "Course",
+        href: "https://huggingface.co/learn/deep-rl-course/unit0/introduction",
+      },
+    ],
+    preview: {
+      type: "image",
+      href: "https://github.com/nebHailemariam/huggingface-deep-reinforcement-learning-journey",
+      src: "https://opengraph.githubassets.com/1/nebHailemariam/huggingface-deep-reinforcement-learning-journey",
+      alt: "huggingface-deep-reinforcement-learning-journey repository preview",
+    },
+  },
+  {
     id: "gorse-dotnet",
     title: "Gorse Recommender System — .NET Library Enhancement",
     tags: ["C#", ".NET", "Recommender Systems", "Open Source"],
