@@ -17,6 +17,9 @@
 /.next/
 /out/
 
+# blog assets copied from content/writing/ at build time
+/public/writing/
+
 # production
 /build
 
