@@ -1,0 +1,29 @@
+.section {
+  padding: 3rem 0;
+}
+
+.backLink {
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.header {
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  margin: 0 0 0.5rem;
+  font-size: var(--text-2xl);
+  line-height: 1.25;
+  font-weight: 700;
+  color: var(--color-black);
+}
+
+.byline {
+  margin: 0;
+  color: rgb(115 115 115);
+}
+
+.bylineSep {
+  margin: 0 0.35rem;
+}
