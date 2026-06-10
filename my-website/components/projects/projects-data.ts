@@ -93,6 +93,32 @@ export const projects: Project[] = [
     },
   },
   {
+    id: "qwen-toolmind-toolcalling",
+    title: "LittleLamb Tool-Calling Fine-Tune — Qwen + ToolMind",
+    tags: [
+      "Qwen",
+      "LoRA",
+      "Tool Calling",
+      "SFT",
+      "PyTorch",
+      "Hugging Face",
+    ],
+    description:
+      "Fine-tuned LittleLamb 0.3B, a compressed Qwen3-based decoder-only transformer (290M parameters) for function calling on the ToolMind dataset. Trained with supervised fine-tuning (SFT) and PEFT via LoRA on the open_datasets split. Explored tool-calling evaluation beyond validation loss—AST matching accuracy (e.g. Berkeley Function Calling Leaderboard) and function call accuracy for measuring correct tool selection and arguments at inference time.",
+    links: [
+      {
+        label: "GitHub Repository",
+        href: "https://github.com/nebHailemariam/qwen-toolmind-toolcalling-finetune",
+      },
+    ],
+    preview: {
+      type: "image",
+      href: "https://github.com/nebHailemariam/qwen-toolmind-toolcalling-finetune",
+      src: "https://opengraph.githubassets.com/1/nebHailemariam/qwen-toolmind-toolcalling-finetune",
+      alt: "qwen-toolmind-toolcalling-finetune repository preview",
+    },
+  },
+  {
     id: "huggingface-deep-rl",
     title: "Hugging Face Deep Reinforcement Learning Course",
     tags: [
