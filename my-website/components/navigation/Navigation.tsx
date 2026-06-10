@@ -11,12 +11,14 @@ type NavLink = {
 
 const navLinks: NavLink[] = [
   { label: "projects", href: "/projects" },
+  { label: "writing", href: "/writing" },
   { label: "reading", href: "/reading" },
   { label: "resume", href: "/resume" },
 ];
 
 const pageTitles: Record<string, string> = {
   "/projects": "Projects",
+  "/writing": "Writing",
   "/reading": "Reading",
   "/resume": "Resume",
 };

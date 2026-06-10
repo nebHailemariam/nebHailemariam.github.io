@@ -1,0 +1,45 @@
+.item {
+  padding-left: 0.25rem;
+}
+
+.itemHeader {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.375rem;
+
+  @media (min-width: 640px) {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}
+
+.itemTitle {
+  font-size: var(--text-lg);
+  color: var(--color-black);
+  text-decoration: underline;
+  text-decoration-color: #a3a3a3;
+  text-underline-offset: 3px;
+
+  &:hover {
+    text-decoration-color: var(--color-black);
+  }
+}
+
+.itemDate {
+  margin-bottom: 0.125rem;
+  font-size: var(--text-lg);
+  color: rgb(115 115 115);
+
+  @media (min-width: 640px) {
+    margin-left: auto;
+  }
+}
+
+.itemExcerpt {
+  margin: 0;
+  font-size: var(--text-lg);
+  line-height: 1.375;
+  font-family: Newsreader, ui-serif, Georgia, Cambria, "Times New Roman", Times,
+    serif;
+  font-style: italic;
+}

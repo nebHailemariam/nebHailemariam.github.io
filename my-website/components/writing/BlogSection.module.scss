@@ -1,0 +1,29 @@
+.section {
+  padding: 3rem 0;
+
+  & + & {
+    padding-top: 0;
+  }
+}
+
+.heading {
+  margin: 0 0 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  color: var(--color-black);
+}
+
+.list {
+  margin: 0;
+  padding-left: 1.75rem;
+  list-style-type: disc;
+
+  li::marker {
+    color: rgb(163 163 163);
+  }
+
+  li + li {
+    margin-top: 1rem;
+  }
+}
