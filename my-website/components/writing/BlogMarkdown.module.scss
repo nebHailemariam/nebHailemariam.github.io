@@ -16,9 +16,16 @@
     & + p,
     & + ul,
     & + ol,
-    & + pre {
+    & + pre,
+    & + .katex-display {
       margin-top: 1rem;
     }
+  }
+
+  :global(.katex-display) {
+    margin: 1rem 0 0;
+    overflow-x: auto;
+    overflow-y: hidden;
   }
 
   ul,
