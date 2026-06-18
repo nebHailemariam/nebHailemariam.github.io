@@ -124,6 +124,20 @@ export const readingSections: ReadingSection[] = [
     title: "Research Papers",
     items: [
       {
+        href: "https://arxiv.org/abs/2512.24601",
+        title: "Recursive Language Models",
+        meta: "A. L. Zhang et al., 2025",
+        description:
+          "An inference-time paradigm that treats long prompts as external environment state, accessed via a REPL and recursive sub-calls.",
+      },
+      {
+        href: "https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf",
+        title: "A Neural Probabilistic Language Model",
+        meta: "Y. Bengio et al., 2003",
+        description:
+          "Early feed-forward language model with learned word embeddings that mitigates the curse of dimensionality in n-gram modeling.",
+      },
+      {
         href: "https://arxiv.org/abs/2105.14491",
         title: "How Attentive are Graph Attention Networks?",
         meta: "S. Brody et al., 2021",
