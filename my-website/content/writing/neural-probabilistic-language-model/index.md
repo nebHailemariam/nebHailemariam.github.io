@@ -2,7 +2,7 @@
 title: "The genesis of a Neural Probabilistic Language Model"
 date: "2026-06-14"
 category: "Paper notes"
-excerpt: "Bengio et al. (2003) use word embeddings and a feed-forward net to mitigate the curse of dimensionality in language modeling."
+excerpt: "A Neural Probabilistic Language Model"
 ---
 
 ## Paper info

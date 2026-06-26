@@ -2,7 +2,7 @@
 title: "Beyond model context, processing arbitrarily long prompts"
 date: "2026-06-17"
 category: "Paper notes"
-excerpt: "Zhang et al. (2025) propose Recursive Language Models—accessing long prompts via a REPL and recursive self-calls instead of stuffing them into context."
+excerpt: "Recursive Language Models"
 ---
 
 ## Paper info
