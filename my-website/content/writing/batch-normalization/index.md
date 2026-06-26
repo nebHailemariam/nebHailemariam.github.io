@@ -1,8 +1,8 @@
 ---
-title: "The challenge of internal covariates: how internal distribution changes affect Neural Networks—and batch normalization"
+title: "The challenge of internal covariates: how distribution shifts hurt training—and batch normalization"
 date: "2026-06-24"
 category: "Paper notes"
-excerpt: "Ioffe & Szegedy (2015) normalize mini-batches with learnable scale and shift to reduce internal covariate shift and speed up deep network training."
+excerpt: "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift"
 ---
 
 ## Paper info
