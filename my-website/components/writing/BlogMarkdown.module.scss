@@ -82,4 +82,22 @@
     margin: 1.5rem 0;
     border-radius: 4px;
   }
+
+  p:has(> img) {
+    margin: 1.5rem 0 0;
+    text-align: center;
+
+    img {
+      margin: 0 auto;
+    }
+
+    & + p {
+      margin-top: 0.5rem;
+      margin-bottom: 1.5rem;
+      font-size: 0.875rem;
+      line-height: 1.5;
+      color: #737373;
+      text-align: center;
+    }
+  }
 }
