@@ -131,6 +131,43 @@ export const readingSections: ReadingSection[] = [
           "An inference-time paradigm that treats long prompts as external environment state, accessed via a REPL and recursive sub-calls.",
       },
       {
+        href: "https://arxiv.org/abs/1512.03385",
+        title: "Deep Residual Learning for Image Recognition",
+        meta: "K. He et al., 2015",
+        description:
+          "Residual blocks with identity shortcuts (F(x) + x) to train very deep networks and mitigate the degradation problem on plain stacks.",
+      },
+      {
+        href: "https://arxiv.org/abs/1502.03167",
+        title:
+          "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+        meta: "S. Ioffe and C. Szegedy, 2015",
+        description:
+          "Normalizes mini-batch activations with learnable scale and shift to reduce internal covariate shift and stabilize deep network training.",
+      },
+      {
+        href: "https://arxiv.org/abs/1409.0473",
+        title:
+          "Neural Machine Translation by Jointly Learning to Align and Translate",
+        meta: "D. Bahdanau et al., 2014",
+        description:
+          "Encoder-decoder NMT with a learnable soft-attention mechanism over encoder states, especially for long sentences.",
+      },
+      {
+        href: "https://arxiv.org/abs/1406.2661",
+        title: "Generative Adversarial Nets",
+        meta: "I. J. Goodfellow et al., 2014",
+        description:
+          "Adversarial training with a generator and discriminator in a minimax game to learn generative models without explicit density estimation.",
+      },
+      {
+        href: "https://arxiv.org/abs/1301.3781",
+        title: "Efficient Estimation of Word Representations in Vector Space",
+        meta: "T. Mikolov et al., 2013",
+        description:
+          "CBOW and Skip-gram architectures for learning dense word vectors at scale with lower training cost than earlier neural language models.",
+      },
+      {
         href: "https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf",
         title: "A Neural Probabilistic Language Model",
         meta: "Y. Bengio et al., 2003",
