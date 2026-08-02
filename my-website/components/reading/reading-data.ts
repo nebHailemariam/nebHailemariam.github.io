@@ -154,6 +154,13 @@ export const readingSections: ReadingSection[] = [
           "Encoder-decoder NMT with a learnable soft-attention mechanism over encoder states, especially for long sentences.",
       },
       {
+        href: "https://arxiv.org/abs/1706.03762",
+        title: "Attention Is All You Need",
+        meta: "A. Vaswani et al., 2017",
+        description:
+          "The Transformer architecture built entirely on self-attention, enabling parallel training and state-of-the-art machine translation.",
+      },
+      {
         href: "https://arxiv.org/abs/1406.2661",
         title: "Generative Adversarial Nets",
         meta: "I. J. Goodfellow et al., 2014",
