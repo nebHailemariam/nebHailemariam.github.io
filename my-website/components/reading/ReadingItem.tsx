@@ -7,14 +7,14 @@ type ReadingItemProps = {
 
 export default function ReadingItem({ item }: ReadingItemProps) {
   return (
-    <a
-      href={item.href}
-      className={styles.item}
-      target="_blank"
-      rel="noreferrer"
-    >
+    <li className={styles.item}>
       <div className={styles.itemHeader}>
-        <div className={styles.itemTitle}>
+        <a
+          href={item.href}
+          className={styles.itemTitle}
+          target="_blank"
+          rel="noreferrer"
+        >
           {item.title}
           <span className={styles.externalIcon}>
             <svg
@@ -33,10 +33,10 @@ export default function ReadingItem({ item }: ReadingItemProps) {
               <polyline points="7 7 17 7 17 17" />
             </svg>
           </span>
-        </div>
+        </a>
         {item.meta ? <div className={styles.itemMeta}>{item.meta}</div> : null}
       </div>
-      <div className={styles.itemDescription}>{item.description}</div>
-    </a>
+      <p className={styles.itemDescription}>{item.description}</p>
+    </li>
   );
 }

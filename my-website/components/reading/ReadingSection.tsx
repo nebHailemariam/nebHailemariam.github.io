@@ -10,11 +10,11 @@ export default function ReadingSection({ section }: ReadingSectionProps) {
   return (
     <section className={styles.section}>
       <h2 className={styles.heading}>{section.title}</h2>
-      <div className={styles.list}>
+      <ul className={styles.list}>
         {section.items.map((item) => (
           <ReadingItem key={item.href} item={item} />
         ))}
-      </div>
+      </ul>
     </section>
   );
 }
