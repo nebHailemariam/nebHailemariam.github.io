@@ -15,6 +15,15 @@
 }
 
 .list {
-  display: grid;
-  row-gap: 1rem;
+  margin: 0;
+  padding-left: 1.75rem;
+  list-style-type: disc;
+
+  li::marker {
+    color: rgb(163 163 163);
+  }
+
+  li + li {
+    margin-top: 1rem;
+  }
 }

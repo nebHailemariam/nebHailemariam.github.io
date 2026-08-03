@@ -1,15 +1,5 @@
 .item {
-  display: block;
-  margin-left: -0.75rem;
-  margin-right: -0.75rem;
-  padding: 0.5rem 0.75rem;
-  color: inherit;
-  text-decoration: none;
-  transition: background-color 0.15s ease;
-
-  &:hover {
-    background-color: rgb(245 245 245);
-  }
+  padding-left: 0.25rem;
 }
 
 .itemHeader {
@@ -26,6 +16,13 @@
 .itemTitle {
   font-size: var(--text-lg);
   color: var(--color-black);
+  text-decoration: underline;
+  text-decoration-color: #a3a3a3;
+  text-underline-offset: 3px;
+
+  &:hover {
+    text-decoration-color: var(--color-black);
+  }
 }
 
 .externalIcon {
@@ -33,6 +30,7 @@
   margin-left: 0.125rem;
   color: rgb(163 163 163);
   vertical-align: middle;
+  text-decoration: none;
 }
 
 .itemMeta {
@@ -46,6 +44,7 @@
 }
 
 .itemDescription {
+  margin: 0;
   font-size: var(--text-lg);
   line-height: 1.375;
   font-family: Newsreader, ui-serif, Georgia, Cambria, "Times New Roman", Times,
