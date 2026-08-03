@@ -53,13 +53,30 @@
 }
 
 @media (max-width: 580px) {
+  .navContainer {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .logo {
+    margin-bottom: 0;
+  }
+
+  .navigation {
+    justify-content: flex-start;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .navItem:not(:first-child) {
+    margin-left: 1rem;
+  }
+
   .pageTitle {
     display: block;
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .pageTitleDash {
-    display: none;
   }
 }
