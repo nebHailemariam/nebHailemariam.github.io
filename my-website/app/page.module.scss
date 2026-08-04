@@ -4,6 +4,10 @@
   font-size: 1.25rem;
   line-height: 1.25;
   font-weight: 300;
+
+  @media (max-width: 580px) {
+    padding-top: 3rem;
+  }
 }
 
 .grayText {

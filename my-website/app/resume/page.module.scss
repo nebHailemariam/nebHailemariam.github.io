@@ -1,5 +1,17 @@
+.section {
+  padding: 3rem 0;
+  position: relative;
+
+  & + & {
+    padding-top: 0;
+  }
+}
+
 .pdfRow {
-  margin: 0 0 1rem;
+  position: absolute;
+  top: 3rem;
+  right: 0;
+  margin: 0;
   text-align: right;
 }
 
@@ -12,14 +24,6 @@
   text-decoration: none;
   background: #e5252a;
   border-radius: 3px;
-}
-
-.section {
-  padding: 3rem 0;
-
-  & + & {
-    padding-top: 0;
-  }
 }
 
 .heading {

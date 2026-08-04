@@ -17,6 +17,7 @@ const navLinks: NavLink[] = [
 ];
 
 const pageTitles: Record<string, string> = {
+  "/": "Home",
   "/projects": "Projects",
   "/writing": "Writing",
   "/reading": "Reading",
