@@ -1,0 +1,10 @@
+:HL["/_next/static/chunks/0p~x6mm~ivvo4.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.08e28id.o-okb.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.09~u27dqhyhd6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/chunks/0d4.drc.kl95-.css","style"]
+:HL["/writing/transformer-is-all-you-need/figure-1.png","image"]
+:HL["/writing/transformer-is-all-you-need/figure-2.png","image"]
+:HL["/writing/transformer-is-all-you-need/figure-3.png","image"]
+:HL["/writing/transformer-is-all-you-need/figure-4.png","image"]
+:HL["/writing/transformer-is-all-you-need/figure-5.png","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"writing","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"transformer-is-all-you-need","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"K6rCmdZO_BOSkTNotcWcK"}
