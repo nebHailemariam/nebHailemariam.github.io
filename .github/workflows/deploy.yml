@@ -12,12 +12,27 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Reset Pages errored state
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          REPO="${GITHUB_REPOSITORY}"
+          STATUS=$(gh api "repos/$REPO/pages" --jq '.status // "unknown"' 2>/dev/null || echo "unknown")
+          echo "Current Pages status: $STATUS"
+          
+          if [ "$STATUS" = "errored" ]; then
+            echo "::warning::Pages stuck in errored state - attempting reset"
+            gh api -X POST "repos/$REPO/pages/builds" 2>/dev/null || true
+            sleep 5
+          fi
+
       - name: Checkout
         uses: actions/checkout@v4
 
