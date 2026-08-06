@@ -161,6 +161,14 @@ export const readingSections: ReadingSection[] = [
           "The Transformer architecture built entirely on self-attention, enabling parallel training and state-of-the-art machine translation.",
       },
       {
+        href: "https://arxiv.org/abs/1810.04805",
+        title:
+          "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        meta: "J. Devlin et al., 2018",
+        description:
+          "Bidirectional Transformer encoder pre-trained with Masked LM and Next Sentence Prediction, then fine-tuned for state-of-the-art NLP tasks.",
+      },
+      {
         href: "https://arxiv.org/abs/1406.2661",
         title: "Generative Adversarial Nets",
         meta: "I. J. Goodfellow et al., 2014",
