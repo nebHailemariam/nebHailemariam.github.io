@@ -18,35 +18,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Reset Pages errored state
-        continue-on-error: true
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          REPO="${GITHUB_REPOSITORY}"
-          STATUS=$(gh api "repos/$REPO/pages" --jq '.status // "unknown"' 2>/dev/null || echo "unknown")
-          echo "Current Pages status: $STATUS"
-          
-          if [ "$STATUS" = "errored" ]; then
-            echo "::warning::Pages stuck in errored state - attempting reset"
-            gh api -X POST "repos/$REPO/pages/builds" 2>/dev/null || true
-            sleep 5
-          fi
-
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-        with:
-          static_site_generator: next
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "24"
-          cache: npm
-          cache-dependency-path: my-website/package-lock.json
+          node-version: "20"
 
       - name: Install dependencies
         working-directory: ./my-website
@@ -57,7 +35,7 @@ jobs:
         run: npm run build
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./my-website/out
 
@@ -70,4 +48,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@v4
