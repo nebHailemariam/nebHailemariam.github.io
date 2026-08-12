@@ -4,4 +4,4 @@
 :HL["/_next/static/chunks/0d4.drc.kl95-.css","style"]
 :HL["/writing/sentence-representation-with-bert/figure-1.png","image"]
 :HL["/writing/sentence-representation-with-bert/figure-2.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"writing","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"sentence-representation-with-bert","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"IJEYr0WAuqgcxOOXv5Sps"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"writing","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"sentence-representation-with-bert","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"a9MIIZWf4tfc3h9sLWDNT"}
