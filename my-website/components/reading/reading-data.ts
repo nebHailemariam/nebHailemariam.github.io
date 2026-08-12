@@ -169,6 +169,13 @@ export const readingSections: ReadingSection[] = [
           "Bidirectional Transformer encoder pre-trained with Masked LM and Next Sentence Prediction, then fine-tuned for state-of-the-art NLP tasks.",
       },
       {
+        href: "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+        title: "Language Models are Unsupervised Multitask Learners",
+        meta: "A. Radford et al., 2019",
+        description:
+          "GPT-2 shows that large language models can perform many NLP tasks in a zero-shot setting without task-specific fine-tuning.",
+      },
+      {
         href: "https://arxiv.org/abs/1406.2661",
         title: "Generative Adversarial Nets",
         meta: "I. J. Goodfellow et al., 2014",
