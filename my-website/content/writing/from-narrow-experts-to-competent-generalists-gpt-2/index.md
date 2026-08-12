@@ -54,13 +54,21 @@ The authors demonstrated that the largest GPT-2 model was able to match and exce
 [1] Tomas Mikolov et al., [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781), 2013.
 
 [2] Ronan Collobert et al., [Natural Language Processing (Almost) from Scratch](https://arxiv.org/abs/1103.0398), 2011.
+
 [3] Andrew M. Dai and Quoc V. Le, [Semi-supervised Sequence Learning](https://arxiv.org/abs/1511.01432), 2015.
+
 [4] Matthew E. Peters et al., [Deep Contextualized Word Representations](https://arxiv.org/abs/1802.06665), 2018.
+
 [5] Alec Radford et al., [Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf), 2018.
+
 [6] Jacob Devlin et al., [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805), 2018.
+
 [7] Alex Wang et al., [GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding](https://arxiv.org/abs/1804.07461), 2018.
+
 [8] Bryan McCann et al., [The Natural Language Decathlon: Multitask Learning as Question Answering](https://arxiv.org/abs/1806.08730), 2018.
+
 [9] Yoshua Bengio et al., [A Neural Probabilistic Language Model](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf), 2003.
+
 [10] Rami Al-Rfou et al., [Character-Level Language Modeling with Deeper Self-Attention](https://arxiv.org/abs/1808.04444), 2018.
 
 [11] Ashish Vaswani et al., [Attention Is All You Need](https://arxiv.org/abs/1706.03762), 2017.
