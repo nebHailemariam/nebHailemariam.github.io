@@ -1,5 +1,5 @@
 ---
-title: "From narrow experts to competent generalists—GPT-2"
+title: "GPT-2: From narrow experts to competent generalists"
 date: "2026-08-11"
 category: "Paper notes"
 excerpt: "Language Models are Unsupervised Multitask Learners"

@@ -176,6 +176,13 @@ export const readingSections: ReadingSection[] = [
           "GPT-2 shows that large language models can perform many NLP tasks in a zero-shot setting without task-specific fine-tuning.",
       },
       {
+        href: "https://arxiv.org/abs/2005.14165",
+        title: "Language Models are Few-Shot Learners",
+        meta: "T. B. Brown et al., 2020",
+        description:
+          "GPT-3 shows that scaling language models improves task-agnostic few-shot performance without fine-tuning, sometimes matching fine-tuned systems.",
+      },
+      {
         href: "https://arxiv.org/abs/1406.2661",
         title: "Generative Adversarial Nets",
         meta: "I. J. Goodfellow et al., 2014",
