@@ -4,4 +4,4 @@
 :HL["/_next/static/chunks/0d4.drc.kl95-.css","style"]
 :HL["/writing/neural-machine-translation-with-attention/figure-1.png","image"]
 :HL["/writing/neural-machine-translation-with-attention/figure-2.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"writing","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"neural-machine-translation-with-attention","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"a9MIIZWf4tfc3h9sLWDNT"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"writing","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"neural-machine-translation-with-attention","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"kx_tYt-tN4LE_cS5vQT-Y"}
