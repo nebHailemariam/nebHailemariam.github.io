@@ -183,6 +183,13 @@ export const readingSections: ReadingSection[] = [
           "GPT-3 shows that scaling language models improves task-agnostic few-shot performance without fine-tuning, sometimes matching fine-tuned systems.",
       },
       {
+        href: "https://arxiv.org/abs/2203.02155",
+        title: "Training language models to follow instructions with human feedback",
+        meta: "L. Ouyang et al., 2022",
+        description:
+          "InstructGPT aligns GPT-3 with human preferences using RLHF, showing that 1.3B aligned models outperform 175B unaligned models.",
+      },
+      {
         href: "https://arxiv.org/abs/1406.2661",
         title: "Generative Adversarial Nets",
         meta: "I. J. Goodfellow et al., 2014",
