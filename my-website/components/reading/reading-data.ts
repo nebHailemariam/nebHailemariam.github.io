@@ -190,6 +190,13 @@ export const readingSections: ReadingSection[] = [
           "InstructGPT aligns GPT-3 with human preferences using RLHF, showing that 1.3B aligned models outperform 175B unaligned models.",
       },
       {
+        href: "https://arxiv.org/abs/2201.11903",
+        title: "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+        meta: "J. Wei et al., 2022",
+        description:
+          "Few-shot chain-of-thought exemplars unlock multi-step reasoning in large language models on arithmetic, commonsense, and symbolic tasks.",
+      },
+      {
         href: "https://arxiv.org/abs/1406.2661",
         title: "Generative Adversarial Nets",
         meta: "I. J. Goodfellow et al., 2014",
