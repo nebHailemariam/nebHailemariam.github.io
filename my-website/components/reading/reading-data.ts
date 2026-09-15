@@ -131,6 +131,30 @@ export const readingSections: ReadingSection[] = [
           "An inference-time paradigm that treats long prompts as external environment state, accessed via a REPL and recursive sub-calls.",
       },
       {
+        href: "https://arxiv.org/abs/2608.10187",
+        title:
+          "ConnectionMind: Leveraging Social Networks and Large Language Models for Personalized Recommendation at Meta",
+        meta: "H. Han et al., 2026",
+        description:
+          "Combines social-network structure with LLMs for personalized recommendation at Meta scale.",
+      },
+      {
+        href: "https://aclanthology.org/2025.findings-acl.543.pdf",
+        title:
+          "Optimized Text Embedding Models and Benchmarks for Amharic Passage Retrieval",
+        meta: "K. A. Mekonnen et al., 2025",
+        description:
+          "Amharic-specific dense and ColBERT retrievers that outperform strong multilingual baselines on passage retrieval.",
+      },
+      {
+        href: "https://aclanthology.org/2026.mellm-1.19.pdf",
+        title:
+          "The Multilingual Curse at the Retrieval Layer: Evidence from Amharic",
+        meta: "Y. W. Alemneh et al., 2026",
+        description:
+          "Shows zero-shot multilingual retrieval underperforms monolingual Amharic retrievers, arguing for in-language evaluation and adaptation.",
+      },
+      {
         href: "https://arxiv.org/abs/1512.03385",
         title: "Deep Residual Learning for Image Recognition",
         meta: "K. He et al., 2015",
