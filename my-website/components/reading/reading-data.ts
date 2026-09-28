@@ -221,6 +221,43 @@ export const readingSections: ReadingSection[] = [
           "Few-shot chain-of-thought exemplars unlock multi-step reasoning in large language models on arithmetic, commonsense, and symbolic tasks.",
       },
       {
+        href: "https://arxiv.org/abs/2302.13971",
+        title: "LLaMA: Open and Efficient Foundation Language Models",
+        meta: "H. Touvron et al., 2023",
+        description:
+          "Kicked off the open-source LLM movement with publicly released foundation models.",
+      },
+      {
+        href: "https://arxiv.org/abs/2005.11401",
+        title:
+          "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+        meta: "P. Lewis et al., 2020",
+        description:
+          "How most production LLM apps work today — retrieving external knowledge to ground generation.",
+      },
+      {
+        href: "https://arxiv.org/abs/2304.08485",
+        title: "Visual Instruction Tuning",
+        meta: "H. Liu et al., 2023",
+        description:
+          "LLaVA: a simple open approach to multimodal LLMs via visual instruction tuning.",
+      },
+      {
+        href: "https://arxiv.org/abs/2010.11929",
+        title: "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+        meta: "A. Dosovitskiy et al., 2020",
+        description:
+          "Vision Transformer (ViT) shows transformers are universal — not just for NLP.",
+      },
+      {
+        href: "https://arxiv.org/abs/2103.00020",
+        title:
+          "Learning Transferable Visual Models From Natural Language Supervision",
+        meta: "A. Radford et al., 2021",
+        description:
+          "CLIP connects text and images and became a foundation of multimodal AI.",
+      },
+      {
         href: "https://arxiv.org/abs/1406.2661",
         title: "Generative Adversarial Nets",
         meta: "I. J. Goodfellow et al., 2014",
