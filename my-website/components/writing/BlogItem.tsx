@@ -9,14 +9,9 @@ type BlogItemProps = {
 export default function BlogItem({ post }: BlogItemProps) {
   return (
     <li className={styles.item}>
-      <div className={styles.itemHeader}>
-        <Link href={`/writing/${post.slug}`} className={styles.itemTitle}>
-          {post.title}
-        </Link>
-        <time className={styles.itemDate} dateTime={post.dateIso}>
-          {post.date}
-        </time>
-      </div>
+      <Link href={`/writing/${post.slug}`} className={styles.itemTitle}>
+        {post.title}
+      </Link>
       <p className={styles.itemExcerpt}>{post.excerpt}</p>
     </li>
   );
