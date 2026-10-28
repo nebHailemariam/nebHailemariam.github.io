@@ -28,6 +28,11 @@ export const readingSections: ReadingSection[] = [
           "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
       },
       {
+        href: "https://huggingface.co/blog/train-reranker",
+        title:
+          "Training and Finetuning Reranker Models (Cross-Encoder) with Sentence Transformers v4",
+      },
+      {
         href: "https://sbert.net/examples/sentence_transformer/training/distillation/README.html",
         title: "Model Distillation",
       },
@@ -58,11 +63,6 @@ export const readingSections: ReadingSection[] = [
       {
         href: "https://academy.langchain.com/certificates/arzejdkbkn",
         title: "Foundation: Introduction to LangGraph",
-      },
-      {
-        href: "https://huggingface.co/blog/train-reranker",
-        title:
-          "Training and Finetuning Reranker Models with Sentence Transformers v4",
       },
       {
         href: "https://galileo.ai/blog/mastering-rag-how-to-select-a-reranking-model",
@@ -103,6 +103,11 @@ export const readingSections: ReadingSection[] = [
   {
     title: "Research Papers",
     items: [
+      {
+        href: "https://arxiv.org/abs/2107.05720",
+        title:
+          "SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking",
+      },
       {
         href: "https://arxiv.org/abs/2302.13971",
         title: "LLaMA: Open and Efficient Foundation Language Models",
