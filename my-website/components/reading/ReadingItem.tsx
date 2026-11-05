@@ -14,8 +14,9 @@ export default function ReadingItem({ item }: ReadingItemProps) {
         target="_blank"
         rel="noreferrer"
       >
-        {item.title}
+        {item.title.slice(0, item.title.lastIndexOf(" ") + 1)}
         <span className={styles.externalIcon}>
+          {item.title.slice(item.title.lastIndexOf(" ") + 1)}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width={18}

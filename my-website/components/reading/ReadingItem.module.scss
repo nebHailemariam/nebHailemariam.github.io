@@ -15,9 +15,13 @@
 }
 
 .externalIcon {
-  display: inline;
-  margin-left: 0.125rem;
-  color: rgb(163 163 163);
-  vertical-align: middle;
-  text-decoration: none;
+  white-space: nowrap;
+  color: inherit;
+
+  svg {
+    display: inline-block;
+    margin-left: 0.125rem;
+    color: rgb(163 163 163);
+    vertical-align: middle;
+  }
 }

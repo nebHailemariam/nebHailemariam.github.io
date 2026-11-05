@@ -104,6 +104,21 @@ export const readingSections: ReadingSection[] = [
     title: "Research Papers",
     items: [
       {
+        href: "https://arxiv.org/abs/2603.17540",
+        title:
+          "Deploying Semantic ID-based Generative Retrieval for Large-Scale Podcast Discovery at Spotify",
+      },
+      {
+        href: "https://arxiv.org/abs/2306.08121",
+        title:
+          "Better Generalization With Semantic IDs: A Case Study in Ranking for Recommendations",
+      },
+      {
+        href: "https://arxiv.org/abs/2510.07784",
+        title:
+          "PLUM: Adapting Pre-trained Language Models for Industrial-scale Generative Recommendations",
+      },
+      {
         href: "https://arxiv.org/abs/2107.05720",
         title:
           "SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking",
