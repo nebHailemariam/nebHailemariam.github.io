@@ -104,6 +104,11 @@ export const readingSections: ReadingSection[] = [
     title: "Research Papers",
     items: [
       {
+        href: "https://arxiv.org/abs/2402.03216",
+        title:
+          "M3-Embedding: Multi-Linguality, Multi-Functionality, Multi-Granularity Text Embeddings Through Self-Knowledge Distillation",
+      },
+      {
         href: "https://arxiv.org/abs/2603.17540",
         title:
           "Deploying Semantic ID-based Generative Retrieval for Large-Scale Podcast Discovery at Spotify",
